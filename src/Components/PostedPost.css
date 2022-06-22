@@ -1,0 +1,124 @@
+.postedPost{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.postedPost_Mheader{
+    display: flex;
+}
+.postedPost_header{
+    display: flex;
+    margin-bottom: 10px;
+}
+.dots{
+    margin-left: auto; 
+    margin-right: 0;
+    
+}
+.threedots {
+
+    color:#76438a ;
+}
+.post__info{
+    margin-left: 10px;
+}
+.post__info > p {
+    font-size: 12px;
+    color:grey;
+}
+.post__info > h2 {
+    font-size: 15px;
+}
+.postedPost__body{
+    overflow-wrap:anywhere;
+}
+.postedPost__body > p{
+   text-align: left;
+}
+.postedPost__buttons{
+    display: flex;
+    justify-content: space-evenly ;
+}
+.imgpost > img {
+    margin-top: 10px;
+    size: 70%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+   
+}
+.commentbtn{
+    cursor: pointer;
+}
+.likebtn{
+    cursor: pointer;
+}
+.comment_post{
+    margin-top: -1px;
+    padding-top: 5px;
+    border-width: 100%;
+    border-top: 1px solid lightgray;
+    background-color: white;
+    
+    
+}
+.comment_post > form  {
+    max-width: 100%;
+    display:flex;
+    margin-top: 10px;
+}
+.comment_post > form> input  {
+    width: 100%;
+    border: 1px solid #76438a;
+}
+
+.comment_post > form > button {
+    color: white;
+    background-color: #76438a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.comment_post > form > button:hover{
+    box-shadow: none;
+} 
+.comment_input{
+    height: 24px;
+    border-radius: 6px;
+    border-color: lightgrey;
+    padding: 2px;
+    margin-right: 2px;
+} 
+
+.CommentedComment{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.comment_post > p{
+    font-size: 15px;
+}
+.CommentedComment_header{
+    display: flex;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.comment_info{
+    margin-left: 10px;
+    
+}
+.comment_info > p {
+    font-size: 12px;
+    color:grey; 
+   
+}
+.comment_info > h4 {
+    font-size: 15px;
+}
+.commentedComment_body > p{
+    text-align: left;
+    margin-left: 50px;
+     margin-bottom: 2px;
+ }

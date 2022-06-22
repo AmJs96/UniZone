@@ -1,0 +1,12 @@
+.Home{
+    background-color:#160F36;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home__body{
+    display: flex;
+
+}
+/* #f9f9f9; */
